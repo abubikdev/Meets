@@ -6,7 +6,7 @@ struct ContentView: View {
     var body: some View {
         TabView {
             Tab("Transcriptions", systemImage: "text.pad.header.badge.clock") {
-                Text("Transcriptions")
+                TranscriptionsView()
             }
             Tab("Knowledge", systemImage: "apple.intelligence") {
                 Text("Transcriptions")
